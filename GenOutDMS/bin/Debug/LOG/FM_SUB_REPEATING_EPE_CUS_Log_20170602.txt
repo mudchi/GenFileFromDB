@@ -1,0 +1,21 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   Created Date : 02/06/2017 15:21:31
+   Process Name   : FM_SUB_REPEATING_EPE_CUS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> *******************************************************************************
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> Program Start On 02/06/2017 15:21:31
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> Default culture en-US
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> *******************************************************************************
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> 1.Insert LogHeader Runby : AUTO ,Programname : FM_SUB_REPEATING_EPE_CUS ,RunDate : 03/07/2017,PathFile : C:\Users\chirayut.w\Desktop\Test, FileName : EDWTFREGSUBREPEATING_EPE_CUS_{0}.txt
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> 2.Change last string of path file to \
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> 3.Change file name EDWTFREGSUBREPEATING_EPE_CUS_{0}.txt add date 20170602
+[ 15:21:31 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Set file name EDWTFREGSUBREPEATING_EPE_CUS_20170602.txt
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Set path file C:\Users\chirayut.w\Desktop\Test\EDWTFREGSUBREPEATING_EPE_CUS_20170602.txt
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 4.Check exists directory path C:\Users\chirayut.w\Desktop\Test\ 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Directory exists
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 5.Check exists text file C:\Users\chirayut.w\Desktop\Test\EDWTFREGSUBREPEATING_EPE_CUS_20170602.txt 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Delete file C:\Users\chirayut.w\Desktop\Test\EDWTFREGSUBREPEATING_EPE_CUS_20170602.txt 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 6.GetData from syskey SQL_EX_SUB_REPEATING_EPE_CUS 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Total 0 Rows 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 7.Write to file total 0 rows 
+[ 15:21:32 ][ Info ][ BaseGenFileBLL.start ] <==> 	- Success 0/0 

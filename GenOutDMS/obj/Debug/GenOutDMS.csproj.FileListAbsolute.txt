@@ -1,0 +1,8 @@
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\bin\Debug\GenOutDMS.exe
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\bin\Debug\GenOutDMS.pdb
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.csprojResolveAssemblyReference.cache
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.Form1.resources
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.Properties.Resources.resources
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.csproj.GenerateResource.Cache
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.exe
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\GenOutDMS\obj\Debug\GenOutDMS.pdb

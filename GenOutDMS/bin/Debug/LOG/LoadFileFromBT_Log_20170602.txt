@@ -1,0 +1,110 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   Created Date : 02/06/2017 15:21:26
+   Process Name   : LoadFileFromBT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> Start Program: DMS Runby: 03/07/2017 TypeRun: AUTO  
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> *******************************************************************************
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> Program Start On 02/06/2017 15:21:26
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> Default culture en-US
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> Program group GENOUTDMS
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> *******************************************************************************
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> Load Scheduled
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> --------------------------------------------------------------------------
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> * * * SystemDate : 02/06/2017
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> * * * Transaction Date : 03/07/2017
+[ 15:21:26 ][ Info ][ formMain..ctor ] <==> --------------------------------------------------------------------------
+[ 15:21:26 ][ Info ][ ScheduleBLL.getPreviosWorkDay ] <==> 	- Change run date to 02/07/2017 Day : Sunday
+[ 15:21:26 ][ Info ][ ScheduleBLL.getPreviosWorkDay ] <==> 	- Change run date to 01/07/2017 Day : Saturday
+[ 15:21:26 ][ Info ][ ScheduleBLL.getPreviosWorkDay ] <==> 	- Change run date to 30/06/2017 Day : Friday
+[ 15:21:26 ][ Info ][ ScheduleBLL.checkHoliday ] <==> 		- Start check working date : 20170630
+[ 15:21:28 ][ Info ][ ScheduleBLL.checkHoliday ] <==> 			- recieved value : 0
+[ 15:21:28 ][ Info ][ ScheduleBLL.checkHoliday ] <==> 			- Check working date : PASS 
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> * * * Change transaction Date : 30/06/2017
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> --------------------------------------------------------------------------
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> Get 13 list : FM_DMSFTX,FM_DMSFTU,FM_DMSLTX,FM_DMSFCD_LTX,FM_DMSRPT40_LTX,FM_DMSFLA,FM_DMSPTX,FM_SUB_REPEATING_FTX,FM_SUB_REPEATING_LTX,FM_SUB_REPEATING_EPE,FM_SUB_REPEATING_EPE_CUS,FI_DMSCAR,FI_DMSLAR
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> Setting program FI_DMSCAR is not run becuase setdate is 01/08/2017
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> Setting program FI_DMSLAR is not run becuase setdate is 01/08/2017
+[ 15:21:28 ][ Info ][ formMain..ctor ] <==> --------------------------------------------------------------------------
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> ***********************Start Timer tick***********************
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSFTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGFTX_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFTU status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSFTU Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGFTU_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSLTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSLTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGLTX_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFCD_LTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSFCD_LTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGLTX_FCD_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSRPT40_LTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSRPT40_LTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGLTX_NRB_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFLA status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSFLA Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGFLA_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSPTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_DMSPTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGPTX_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_FTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_SUB_REPEATING_FTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGSUBREPEATING_FTX_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_LTX status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_SUB_REPEATING_LTX Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGSUBREPEATING_LTX_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_EPE status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_SUB_REPEATING_EPE Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGSUBREPEATING_EPE_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_EPE_CUS status : NOT RUN
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> Check limit time 19:00:00 Time now : 15:21:31
+[ 15:21:31 ][ Info ][ ScheduleBLL.checkOverTimeLimit ] <==> 	- Pass
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Start Run program : FM_SUB_REPEATING_EPE_CUS Path : C:\Users\chirayut.w\Desktop\Test Filename : EDWTFREGSUBREPEATING_EPE_CUS_{0}.txt
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> ***********************End Timer tick***********************
+[ 15:21:31 ][ Info ][ formMain.TimeAuto_Tick ] <==> --------------------------------------------------------------------------
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> ***********************Start Timer tick***********************
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSFTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFTU status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSFTU is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSLTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSLTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFCD_LTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSFCD_LTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSRPT40_LTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSRPT40_LTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSFLA status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSFLA is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_DMSPTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_DMSPTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_FTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_SUB_REPEATING_FTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_LTX status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_SUB_REPEATING_LTX is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_EPE status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_SUB_REPEATING_EPE is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Begin program FM_SUB_REPEATING_EPE_CUS status : RUN
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Get log statis program FM_SUB_REPEATING_EPE_CUS is status C
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> 		- Program run complete set is not run.
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> Exit Run all complete
+[ 15:21:36 ][ Info ][ formMain.TimeAuto_Tick ] <==> *******************************************************************************

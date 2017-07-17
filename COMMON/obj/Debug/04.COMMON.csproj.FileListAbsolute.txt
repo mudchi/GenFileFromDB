@@ -1,0 +1,7 @@
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\bin\Debug\COMMON.dll
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\bin\Debug\COMMON.pdb
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\obj\Debug\04.COMMON.csprojResolveAssemblyReference.cache
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\obj\Debug\COMMON.dll
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\obj\Debug\COMMON.pdb
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\obj\Debug\COMMON.RSSQL.resources
+D:\Sourcecode\625-TF_REG-NTF\SourceCode\Source\TF_BOT\Generate_Input_Convert\GenOutDMS\COMMON\obj\Debug\04.COMMON.csproj.GenerateResource.Cache
